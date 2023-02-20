@@ -24,7 +24,7 @@ int main() {
 				for (touchdown = 0; touchdown <= score / 7; touchdown++) {
 					for (FG = 0; FG <= score / 3; FG++) {
 						for (saftey = 0; saftey <= score / 2; saftey++) {
-							if ((touchdown2 * 8) + (touchdown1 * 6) + (touchdown * 7) + (FG * 3) + (saftey * 2) == score) {
+							if ((touchdown2 * 8) + (touchdown1 * 7) + (touchdown * 6) + (FG * 3) + (saftey * 2) == score) {
 								printf("%d TD + 2pt, %d TD + FG, %d TD, %d 3pt FG, %d Saftey\n",
 										touchdown2, touchdown1, touchdown, FG, saftey);
 							}
